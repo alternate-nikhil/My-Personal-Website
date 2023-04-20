@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    border-style: dotted none none;
+    border-color: lightgray;
+    border-width: 8px;
+    /* height: 10px; */
+    width: 6%;
+    margin: 90px auto;
+}
+h1{
+    font-family: 'Parisienne', cursive;
+    font-size: 5.625rem;
+    /* color: #82CD47; */
+    color: #66BFBF;
+    /* line-height: 2; */
+    margin: 50px auto 0;
+}
+h2{
+    /* font-family: 'Charmonman', cursive; */ 
+    color: #66BFBF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+h3{
+    /* font-family: 'Charmonman', cursive; */
+    font-family: 'Quicksand', sans-serif;
+    color: #11999E;;
+}
+a{
+    color: #11999E;
+}
+.top-container{
+    background-color: #E4F9F5;
+    padding-top: 100px;
+    position: relative;
+}
+.top-container h2{
+    font-size: 1.6rem;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    
+}
+.profile{
+    margin-top: 50px;
+}
+.profile-pic{
+    height: 200px;
+    width: 200px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    /* background-color: blue; */
+    text-align: left;
+}
+.skill-row > p {
+    line-height: 2;
+}
+
+.skill-1-img{
+    width: 25%;
+    /* background-color: brown; */
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-2-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    /* background-color: brown; */
+}
+
+.contact-me{
+    width: 50%;
+    /* background-color: aquamarine; */
+    margin: 40px auto;
+}
+
+.btn{
+    background-color: #66BFBF;
+    display: inline-block;
+    margin: 40px;
+    color: #E4F9F5;
+    padding: 13px;
+    border-radius: 10px;
+    
+    font-weight: 900
+}
+.bottom-container p{
+    margin: 0;
+    color: #EAF6F6;
+}
+
+.bottom-container a{
+    display: inline-block;
+    margin: 20px 20px;
+    font-size: 1.4rem;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    /* margin: 0; */
+    height: 170px;
+    line-height: 3;
+
+}
